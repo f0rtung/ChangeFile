@@ -24,6 +24,7 @@ private slots:
 private:
     Ui::Widget *ui;
     QFileInfoList* files;
+    QString path;
 };
 
 #endif // WIDGET_H
